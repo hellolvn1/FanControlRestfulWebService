@@ -1,0 +1,68 @@
+
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<title>Fan Control Demo</title>
+<link rel="stylesheet" href="css/fan-style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+<script src="js/fan.js" type="text/javascript"></script>
+</head>
+<body>
+
+	<div class="windows">
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+		<div class="window"></div>
+	</div>
+	<div class="fan">
+
+		<div class="fan__root">
+			<span class="top">
+				 <label class="blue fa-solid fa-arrow-right"  onClick="increaseSpeed()"></label> 
+				 <label class="green fa-solid fa-arrow-left " onClick="decreaseSpeed()"></label> 
+				 <label class="red fa-solid fa-stop" onClick="reset()"></label></span> <span class="bottom">
+			</span>
+		</div>
+
+		<div class="fan__staddle"></div>
+
+		<input type="checkbox" id="jack" hidden />
+
+		<div class="head">
+			<div class="fan__engine">
+				<span class="center"></span>
+			</div>
+			<div>
+				<span class="fly"></span> <span class="fly"></span> 
+				<span
+					class="fly"></span>
+				<div class="fan__blades">
+					<div class="fan__blades">
+						<div class="center"></div>
+						<div class="blade">
+							<span></span>
+						</div>
+						<div class="blade">
+							<span></span>
+						</div>
+						<div class="blade">
+							<span></span>
+						</div>
+						<div class="blade">
+							<span></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

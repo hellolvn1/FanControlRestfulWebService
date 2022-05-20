@@ -33,11 +33,8 @@ You will be able to access web interface through: http://localhost:8085/FanDemos
 
 ****** Technology in the demo
 
-1. Java 8
-2. Tomcat 8
-3. Jersey 1.9 (Restful WebService)
-4. HTML
-5. FontAwesome
+1. Front end: HTML, JS, and CSS, FontAwesome
+2. Back end: Java 8, Tomcat 8, Jersey 1.2 (Restful Web Service)
 
 ****** Things to improve later:
 
@@ -45,7 +42,8 @@ You will be able to access web interface through: http://localhost:8085/FanDemos
 2. Allow multiple fan interface
 3. Separate HTML and web service laywer
 4. Improve the 3 action buttons design
+5. Clean up both the front end and back end code.
 
 ****Acknowledgement
 
-The FAN spining html code was used from the URL: https://programtuts.com/fan/fan.html
+The FAN spining html code was used from this URL: https://programtuts.com/fan/fan.html

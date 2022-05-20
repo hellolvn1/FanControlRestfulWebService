@@ -1,4 +1,4 @@
-*****Video of the interface
+*****Demo of the Fan Interface
 
 https://www.youtube.com/shorts/B2t4YjalXVk
 

@@ -1,3 +1,7 @@
+*****Video of the interface
+
+https://www.youtube.com/shorts/B2t4YjalXVk
+
 ***** How to run the Fan Demo from MacOS using Docker. If you don't have Docker Desktop install, please follow the instruction here: https://www.docker.com/products/docker-desktop/
 
 Step 1. Download the source code:
@@ -40,7 +44,7 @@ You will be able to access web interface through: http://localhost:8085/FanDemos
 1. Add restful web service security
 2. Allow multiple fan interface
 3. Separate HTML and web service laywer
-4. TBD
+4. Improve the 3 action buttons design
 
 ****Acknowledgement
 

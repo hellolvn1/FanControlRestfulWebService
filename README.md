@@ -23,7 +23,8 @@ You will be able to access web interface through: http://localhost:8085/FanDemos
 2. git clone https://github.com/hellolvn1/FanControlRestfulWebService.git
 3. cd FanControlRestfulWebService
 4. cp target/FanDemos-0.0.1-SNAPSHOT.war /docker_deploy
-5. Follow from Step 1 to Step 4 above.
+5. Run the command: mvn package
+6. Follow from Step 1 to Step 4 above.
 
 ****** How to use the fan
 
